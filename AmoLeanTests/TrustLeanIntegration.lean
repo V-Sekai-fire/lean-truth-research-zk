@@ -1,6 +1,6 @@
 /-
   AMO-Lean v2.2.0 — Trust-Lean Integration Tests
-  Tests/TrustLeanIntegration.lean
+  AmoLeanTests/TrustLeanIntegration.lean
 
   N10.3 (v2.2.0): Integration tests for the Trust-Lean bridge.
   Tests all 6 ExpandedSigma constructors, verified pipeline end-to-end,

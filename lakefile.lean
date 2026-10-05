@@ -17,18 +17,18 @@ lean_lib «AmoLean» where
 lean_lib «Benchmarks» where
   roots := #[`Benchmarks.FRI_DiffTest, `Benchmarks.Phase0.FriFold, `Benchmarks.Phase2.Optimization]
 
-lean_lib «Tests» where
-  roots := #[`Tests.MigrationRegression, `Tests.AbstractionBenchmark, `Tests.FullStackCheck, `Tests.InfrastructureSanity, `Tests.ExtendedBenchmark, `Tests.E2EProverVerifier, `Tests.Phase3Audit, `Tests.Safety.CodeGenChecks, `Tests.Oracle.FriFoldOracle, `Tests.Optimization.QABenchmark, `Tests.TrustLeanIntegration]
+lean_lib «AmoLeanTests» where
+  roots := #[`AmoLeanTests.MigrationRegression, `AmoLeanTests.AbstractionBenchmark, `AmoLeanTests.FullStackCheck, `AmoLeanTests.InfrastructureSanity, `AmoLeanTests.ExtendedBenchmark, `AmoLeanTests.E2EProverVerifier, `AmoLeanTests.Phase3Audit, `AmoLeanTests.Safety.CodeGenChecks, `AmoLeanTests.Oracle.FriFoldOracle, `AmoLeanTests.Optimization.QABenchmark, `AmoLeanTests.TrustLeanIntegration]
 
 -- Phase 0 test executables
 lean_exe «safety-checks» where
-  root := `Tests.Safety.Main
+  root := `AmoLeanTests.Safety.Main
 
 lean_exe «phase0-bench» where
   root := `Benchmarks.Phase0.FriFold
 
 lean_exe «oracle-test» where
-  root := `Tests.Oracle.FriFoldOracle
+  root := `AmoLeanTests.Oracle.FriFoldOracle
 
 -- Native executable for large-scale benchmarks
 lean_exe «fri-benchmark» where

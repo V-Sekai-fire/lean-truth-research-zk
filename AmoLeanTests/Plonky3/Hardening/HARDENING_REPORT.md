@@ -298,4 +298,4 @@ pub struct TestLayout {
 ---
 
 *Generado: 2026-01-29*
-*Suite: Tests/Plonky3/Hardening/*
+*Suite: AmoLeanTests/Plonky3/Hardening/*

@@ -301,7 +301,7 @@ Documentación disponible:
 │   └── generated/ntt_context.h        # API documentada
 │
 └── Tests como ejemplos
-    └── Tests/NTT/C_KernelTest.c       # Ejemplos de uso
+    └── AmoLeanTests/NTT/C_KernelTest.c       # Ejemplos de uso
     └── verification/plonky3/oracle_test.c
 ```
 
@@ -349,7 +349,7 @@ jobs:
 
       - name: Run hardening suite (120 pathological vectors)
         run: |
-          cd Tests/Plonky3/Hardening
+          cd AmoLeanTests/Plonky3/Hardening
           make all && ./DeepFuzz
 
       - name: Verify formal proofs compile

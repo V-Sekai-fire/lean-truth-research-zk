@@ -1,4 +1,4 @@
-# Tests/interop/Makefile
+# AmoLeanTests/interop/Makefile
 #
 # B94: Comprehensive Interoperability Test Suite
 # Validates AMO-Lean generated C code (field ops, NTT, etc.)
