@@ -10,13 +10,13 @@ lake-packages/
 *.o
 *.a
 generated/fri_test
-Tests/poseidon_c/benchmark_merkle
-Tests/poseidon_c/runner_fuzz
-Tests/poseidon_c/test_*
-Tests/poseidon_c/build/
+AmoLeanTests/poseidon_c/benchmark_merkle
+AmoLeanTests/poseidon_c/runner_fuzz
+AmoLeanTests/poseidon_c/test_*
+AmoLeanTests/poseidon_c/build/
 
 # Rust build artifacts
-Tests/poseidon_fuzz/target/
+AmoLeanTests/poseidon_fuzz/target/
 Cargo.lock
 
 # Editor files
@@ -31,15 +31,15 @@ verification/plonky3/*_test
 verification/plonky3/benchmark_test
 
 # Hardening test binaries
-Tests/Plonky3/Hardening/ffi_stress
-Tests/Plonky3/Hardening/panic_test
-Tests/Plonky3/Hardening/deep_fuzz
-Tests/Plonky3/Hardening/layout_test
-Tests/Plonky3/Hardening/ffi_overhead
-Tests/Plonky3/Hardening/*.txt
+AmoLeanTests/Plonky3/Hardening/ffi_stress
+AmoLeanTests/Plonky3/Hardening/panic_test
+AmoLeanTests/Plonky3/Hardening/deep_fuzz
+AmoLeanTests/Plonky3/Hardening/layout_test
+AmoLeanTests/Plonky3/Hardening/ffi_overhead
+AmoLeanTests/Plonky3/Hardening/*.txt
 
 # Phase 6B build artifacts
-Tests/NTT/cached_benchmark
+AmoLeanTests/NTT/cached_benchmark
 generated/ntt_cached_test
 
 # Binary documents (keep in local biblioteca, not in git)

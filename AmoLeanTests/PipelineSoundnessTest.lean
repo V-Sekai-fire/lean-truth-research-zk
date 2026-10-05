@@ -1,6 +1,6 @@
 /-
   AMO-Lean v2.3.0 — Pipeline Soundness Integration Test
-  Tests/PipelineSoundnessTest.lean
+  AmoLeanTests/PipelineSoundnessTest.lean
 
   N11.12: Integration tests for Fase 11 verified pipeline.
   Verifies that the e-graph pipeline (Level 1) and translation validation

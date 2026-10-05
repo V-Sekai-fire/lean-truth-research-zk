@@ -172,7 +172,7 @@ VERDICT: [EXCELLENT] Granularity is optimal
 ### Running Hardening Tests
 
 ```bash
-cd ../../Tests/Plonky3/Hardening
+cd ../../AmoLeanTests/Plonky3/Hardening
 
 # Build all tests
 make all
@@ -192,7 +192,7 @@ make report
 
 ### Hardening Files
 ```
-Tests/Plonky3/
+AmoLeanTests/Plonky3/
 ├── Hardening/
 │   ├── FFI_Stress.c         # 1M iterations
 │   ├── PanicTest.c          # Panic safety

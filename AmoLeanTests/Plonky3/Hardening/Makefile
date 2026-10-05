@@ -1,4 +1,4 @@
-# Tests/Plonky3/Hardening/Makefile
+# AmoLeanTests/Plonky3/Hardening/Makefile
 #
 # Build and run Phase 6A Hardening Tests
 

@@ -11,7 +11,7 @@
   Output format: JSON for human readability and easy parsing.
 
   Usage:
-    lake env lean --run Tests/poseidon_lean/GenerateVectors.lean > vectors_edge.json
+    lake env lean --run AmoLeanTests/poseidon_lean/GenerateVectors.lean > vectors_edge.json
 -/
 
 import AmoLean.Protocols.Poseidon.Spec
@@ -220,5 +220,5 @@ def main : IO Unit := do
 
 end GenerateVectors
 
--- Run with: lake env lean --run Tests/poseidon_lean/GenerateVectors.lean
+-- Run with: lake env lean --run AmoLeanTests/poseidon_lean/GenerateVectors.lean
 #eval! GenerateVectors.main
